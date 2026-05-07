@@ -1,0 +1,18 @@
+{
+  "name": "zen",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "s8tn",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon electron . --enable-logging",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^42.0.0",
+    "nodemon": "^3.1.14"
+  }
+}
