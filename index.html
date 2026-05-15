@@ -15,12 +15,15 @@
         style-src 'self' 'unsafe-inline';
       "
     >
-    <title>Zen</title>
+    <title>Zen - VTuber Tracking System</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-    <video id="webcam" autoplay playsinline></video>
+    <!-- Hidden video element for webcam capture -->
+    <video id="webcam" autoplay playsinline style="display: none;"></video>
+
+    <!-- Main Three.js canvas will be injected here -->
+    <div id="app"></div>
 
     <script type="module" src="./node_modules/@mediapipe/tasks-vision/vision_bundle.mjs"></script>
     <script type="module" src="renderer.js"></script>
